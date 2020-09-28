@@ -1,0 +1,25 @@
+package main
+
+func main(){
+  var num i32 = 41
+  var num2 i32 = 9
+
+      if num%2 == 0 {
+	i32.print(num)
+	str.print("Your number is even")
+      }else{
+	i32.print(num)
+	str.print("Your number is odd")
+      }
+
+    if  num2 < 0 {
+        i32.print(num2)
+	str.print("is negative")
+    } else if num2 < 10 {
+        i32.print(num2)
+	str.print("has 1 digit")
+    } else {
+        i32.print(num2)
+	str.print("has multiple digits")
+    }
+}

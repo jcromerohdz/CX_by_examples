@@ -1,0 +1,22 @@
+package main
+
+func main(){
+    var n1 f32
+    var n2 f32
+
+    n1 = 10.0
+    n2 = 20.0
+
+    f32.print(n1 + n2)
+    f32.print(n1 - n2)
+    f32.print(n1 / n2)
+    f32.print(n1 * n2)
+
+
+    str.print("cx " + "lang")
+
+
+    bool.print(true && false)
+    bool.print(true || false)
+    bool.print(!true)
+}

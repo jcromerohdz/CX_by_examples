@@ -1,0 +1,18 @@
+package main
+
+var global1 i32 = 5
+var global2 i64 = 5L
+var global3 f32 = 5.0
+var global4 f64 = 5.0D
+var global5 bool = true
+var global6 str = "Hello, World!"
+
+func main(){
+
+    i32.print(global1)
+    i64.print(global2)
+    f32.print(global3)
+    f64.print(global4)
+    bool.print(global5)
+    str.print(global6)
+}

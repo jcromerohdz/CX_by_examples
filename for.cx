@@ -1,0 +1,12 @@
+package main
+
+func main() {
+    var i i32
+
+      for i=0; i<=100; i++ {
+	if i%2 == 0 {
+	  continue
+	}
+	i32.print(i)
+      }
+}

@@ -1,0 +1,8 @@
+ package main 
+
+ func main(){
+    var hello str
+
+    hello = str.concat("Hello, ", "World! with skycoin-cx")
+    str.print(hello)
+ }
